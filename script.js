@@ -1,3 +1,2 @@
-const div = document.createElement("div");
-div.id = "squDiv";
-divContainer.appendChild(div);
+const div = document.getElementById("divContainer");
+
