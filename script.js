@@ -3,7 +3,7 @@ function squareGrid(dimension){
     const total = (dimension *dimension) + dimension;
     const mod = dimension +1;
 
-    for(let i =0; i<total; i++){
+    for(let i =1; i<total; i++){
         const div = document.createElement("div");
 
         if(i % mod === 0){
