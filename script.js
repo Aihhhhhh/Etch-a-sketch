@@ -1,6 +1,6 @@
 function squareGrid(dimension){
-    const cdiv = document.getElementById("divContainer");
-    const total = (dimension *dimension) + dimension;
+    const cdiv = document.querySelector(".divContainer");
+    const total = (dimension * dimension) + dimension;
     const mod = dimension +1;
 
     for(let i =1; i<total; i++){
@@ -9,7 +9,7 @@ function squareGrid(dimension){
         if(i % mod === 0){
             div.style.cssText = "border:0 , height:0, width:100%"
         }else{
-            div.style.cssText = "border:1px solid black, height: 40px, width :40px";
+            div.style.cssText = "border:1px solid black, height: 25px, width :25px";
         }
         cdiv.appendChild(div);
     }
