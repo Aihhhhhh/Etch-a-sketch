@@ -1,20 +1,33 @@
-function squareGrid(dimension){
-    const cdiv = document.querySelector(".divContainer");
-    const total = (dimension * dimension) + dimension;
-    const mod = dimension +1;
+//creating a sqaue grid
 
-    for(let i =1; i<total; i++){
-        const div = document.createElement("div");
+const cdiv = document.querySelector(".divContainer");
 
-        if(i % mod === 0){
-            div.style.cssText = "border:0 , height:0, width:100%"
-        }else{
-            div.style.cssText = "border:1px solid black, height: 25px, width :25px";
-        }
-        cdiv.appendChild(div);
-    }
-}
-squareGrid(16);
+
+for(let i =1; i<273; i++){
+    const div = document.createElement("div");
+    cdiv.appendChild(div);
+};
+//setting up a hover effect on the divs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
