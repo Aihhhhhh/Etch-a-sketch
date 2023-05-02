@@ -1,13 +1,24 @@
 //creating a sqaue grid
+var n = 16;
 
-const cdiv = document.querySelector(".divContainer");
+const cDiv = document.querySelector(".divContainer");
 
 
-for(let i =1; i<273; i++){
-    const div = document.createElement("div");
-    cdiv.appendChild(div);
+for(let i =1; i<n; i++){
+    cDiv.innerHTML+= '<div class = "row">';
+
+    for(j=0; j<n ; j++){
+    cDiv.innerHTML += '<div class = "smallBox">';
+    }
 };
-//setting up a hover effect on the divs
+//setting up a hover effect on the div
+
+const smallBoxes = document.querySelectorAll(".smallBox");
+[...smallBoxes].forEach(smallBox=>{
+    smallBox.addEventListener("mouseover", ()=> {
+        smallBox.classList.add("permahover");
+    })
+});
 
 
 
