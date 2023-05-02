@@ -1,7 +1,9 @@
 *{
     box-sizing: border-box;
 }
-
+h1{
+    text-align: center;
+}
 .divContainer{
     display: flex;
     flex-wrap: wrap;
