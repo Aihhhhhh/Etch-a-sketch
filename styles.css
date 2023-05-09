@@ -6,8 +6,16 @@ h1{
 }
 .divContainer{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+}
+.popup{
+    background-color: darkgray;
+    border: 4px palevioletred;
+    width: 30px;
+    height:30px;
+    margin-bottom: 40px;
 }
 
 .smallBox{
