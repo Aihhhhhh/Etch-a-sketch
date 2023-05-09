@@ -3,6 +3,9 @@
 }
 h1{
     text-align: center;
+    text-shadow: #999999 4px 4px,
+    #cccccc 8px 8px,
+    #f2f2f2 12px 12px;
 }
 .divContainer{
     display: flex;
@@ -13,10 +16,11 @@ h1{
 .popup{
     background-color: darkgray;
     border: 4px palevioletred;
-    width: 30px;
-    height:30px;
+    width: 50px;
+    height:50px;
     margin-bottom: 40px;
     margin-left: 75px;
+    border-radius: 50%;
 }
 
 .smallBox{
